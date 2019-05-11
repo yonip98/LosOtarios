@@ -1,0 +1,16 @@
+Primer paso: Hacer una carpeta "Git"
+Segundo paso: Clonar el repositorio de la pagina desde el terminal.
+con el comando: git clone {y el link}
+Tercer paso: Hacer un archivo .txt
+y para añadirlo usamos el comando: git add {nombre de archivo}
+Cuarto paso: Para comprobar modificacion en algun archivo 
+se usa el comando: git diff
+Quinto paso: Si quieren subir el archivo modificado se usa
+git add {nombre del archivo}
+o (git add .) para añadir todos los archivos modificados.
+Sexto paso: Actualizar con "git commit"
+o {git commit -m} "(mensaje)"
+Septimo paso: Para subir todo a la pagina del GitHub se utiliza el comando
+git push.
+luego del git push...
+deben poner el nombre de usuario y mas luego la password.
