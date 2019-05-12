@@ -1,0 +1,6 @@
+git clone-------para clonar el repositorio a la pc.
+git add---------para añadir un archivo al repositorio.
+git rm -r-------para borrar un archivo.
+git commit -m---para comentar los cambios.
+git push--------para actualizar y subir todo a GitHub.
+git diff--------para comprobar si hay alguna diferencia.
