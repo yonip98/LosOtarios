@@ -12,7 +12,7 @@ int main() {
 	
 	{
 	if (a<b)
-	cout << " Intervalor correcto \n" << endl;
+	cout << " Intervalo correcto \n" << endl;
 	}
 	
 	{
