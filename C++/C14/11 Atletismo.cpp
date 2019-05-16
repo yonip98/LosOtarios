@@ -14,7 +14,7 @@ using namespace std;
 int main() {
 	float a;
 	float b;
-	string opc;
+	char opc;
 	float p;
 	string s;
 	cout << "Ingrese alguna de las siguientes opciones" << endl;
@@ -27,7 +27,7 @@ int main() {
 	cin >> opc;
 	do {
 		switch (opc) {
-		case "1":
+		case '1':
 			cout << "ingrese el primer valor" << endl;
 			cin >> a;
 			cout << "ingrese el segundo valor" << endl;
@@ -45,7 +45,7 @@ int main() {
 			cout << "S. salir" << endl;
 			cin >> opc;
 			break;
-		case "2":
+		case '2':
 			cout << "ingrese el primer valor" << endl;
 			cin >> a;
 			cout << "ingrese el segundo valor" << endl;
@@ -63,7 +63,7 @@ int main() {
 			cout << "S. salir" << endl;
 			cin >> opc;
 			break;
-		case "3":
+		case '3':
 			cout << "ingrese el primer valor" << endl;
 			cin >> a;
 			cout << "ingrese el segundo valor" << endl;
@@ -81,7 +81,7 @@ int main() {
 			cout << "S. salir" << endl;
 			cin >> opc;
 			break;
-		case "4":
+		case '4':
 			cout << "ingrese el primer valor" << endl;
 			cin >> a;
 			cout << "ingrese el segundo valor" << endl;
@@ -104,7 +104,7 @@ int main() {
 			cin >> opc;
 			break;
 		}
-	} while (opc!="s");
+	} while (opc!='s');
 	return 0;
 }
 
