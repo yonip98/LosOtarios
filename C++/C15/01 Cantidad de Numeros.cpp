@@ -13,13 +13,15 @@ int main() {
 		{
 			cont1 = cont1 + 1;
 }
-		if (a>50)
+		else
+			if (a>50)
 		{
-			cont2 = cont2 + 1;
+				cont2 = cont2 + 1;
 }
-		if (a>25 && a<45)
-			{
-			cont3 = cont3 + 1;
+		else
+			if (a>25 && a<45)
+		{
+				cont3 = cont3 + 1;
 }
 	}
 		cout << "La cantidad de numeros menores a 0 son: " << cont1 << endl;
