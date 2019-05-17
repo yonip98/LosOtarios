@@ -8,9 +8,10 @@ int main(){
 	
 	//inicia, hasta, con paso
 	cin >> a;
+	cout << "" << endl;
 	for (c=1; c<=10; c++){
 		b = a * c;
-		cout<<"2 x " <<c<<" = "<<b<<endl;
+		cout<< a << " x " <<c<<" = "<<b<<endl;
 	}
 	
 	return 0;
