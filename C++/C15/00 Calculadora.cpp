@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 {
 	int a; int b; int p;
 	char opc;
+	float r; float i;
 	
 	//Falta poner que repita para que la opción S tenga sentido
 	
@@ -63,9 +64,9 @@ int main(int argc, char *argv[])
 			}
 			case '5':
 				{cout << "Ingrese el valor" << endl;
-				cin >> a;
-				p = sqrt (a);	
-				cout << "el resultado de la raiz es: " << p << endl;
+				cin >> i;
+				r = sqrt (i);	
+				cout << "el resultado de la raiz es: " << r << endl;
 				cout << "" << endl;
 				break;
 			}
