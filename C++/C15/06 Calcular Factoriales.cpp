@@ -5,9 +5,9 @@ int main() {
 	int f;
 	int m;
 	int n;
-	// En este programa se utiliza una secuencia "según" para calcular un 
-	// factorial en caso de que el número N sea distinto de 0 y de 1
-	cout << "Ingrese el número al que desea resolver el factorial" << endl;
+	// En este programa se utiliza una secuencia "switch" para calcular un 
+	// factorial en caso de que el nÃºmero N sea distinto de 0 y de 1
+	cout << "Ingrese el nÃºmero al que desea resolver el factorial" << endl;
 	cin >> n;
 	switch (n) {
 	case 0:
@@ -24,8 +24,8 @@ int main() {
 			f = f*(m+1);
 			m = m+1;
 		} while (m<n);
-		// Se repetirá la secuencia n-1 cantidad de veces
-		// Ejemplo: n=5 se repite hasta m=4 pero como realiza un paso más,
+		// Se repetirÃ¡ la secuencia n-1 cantidad de veces
+		// Ejemplo: n=5 se repite hasta m=4 pero como realiza un paso mÃ¡s,
 		// multiplica f * m + 1 (que es igual a N) y cancela m = n.
 	}
 	cout << "El factorial de " << n << "! es igual a " << f << endl;
