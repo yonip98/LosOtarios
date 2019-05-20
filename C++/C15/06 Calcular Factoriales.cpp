@@ -19,7 +19,9 @@ int main() {
 		break;
 	default:
 		m = 1;
+		//m es la potencia
 		f = 1;
+		//f es el resultado del factorial
 		do {
 			f = f*(m+1);
 			m = m+1;
