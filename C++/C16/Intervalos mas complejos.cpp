@@ -3,13 +3,13 @@ using namespace std;
 
 int main() 
 {
-	int a; int b; int c; int N; int CantiExt; int Dentro; int AcuF; int ContF;
+	int a; int b; int c; int N; int CantiExt; int Dentro; int ContF; int AcuF;
 	float Acu; float Prom;
 	CantiExt=0;
 	Dentro=0;
 	Acu=0;
-	ContF=0;
 	AcuF=0;
+	ContF=0;
 	Prom=0;
 	cout << " Ingrese Dos valores \n" << endl;
 	cout << " Por favor ingrese el primer valor \n" << endl;
