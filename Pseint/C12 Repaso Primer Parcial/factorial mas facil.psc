@@ -4,9 +4,13 @@ Proceso sin_titulo
 		Escribir "digite el numero";
 		Leer N;
 		FACT = 1;
-		Para I=1 Hasta N Con Paso 1 Hacer
+		Si N == 0 Entonces
+			U = 0;
+		Sino
+			U = 1;
+		Fin Si
+		Para I=U Hasta N Con Paso 1 Hacer
 			FACT <- FACT*I;
 		FinPara
 		Escribir "El factorial de: ",N, " Es: ", FACT;
 FinProceso
-
