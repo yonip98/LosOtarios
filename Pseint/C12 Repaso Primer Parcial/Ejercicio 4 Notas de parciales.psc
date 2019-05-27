@@ -61,6 +61,10 @@ Algoritmo parciales
 				Para i<-1 Hasta n Con Paso 1 Hacer
 					escribir "Ingrese la nota del primer parcial:";
 					leer a;
+					Mientras a <= 0 o a > 10 Hacer
+						escribir "La nota debe ser del 1 al 10:";
+						leer a;
+					Fin Mientras
 					si a < nmb entonces 
 						//"a" pisa el valor "nmb" siempre que sea menor, por eso se lo inicializa con un valor alto
 						nmb = a;
