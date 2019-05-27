@@ -1,5 +1,5 @@
 Proceso sin_titulo
-	Definir N, FACT, I Como Real;
+	Definir N, FACT, I, U Como Real;
 		Escribir "calcular factoriales";
 		Escribir "digite el numero";
 		Leer N;
