@@ -6,13 +6,16 @@ int main(int argc, char *argv[])
 {
 	int a; int b; int p;
 	char opc;
+	float r; float i;
+	
+	//Falta poner que repita para que la opción S tenga sentido
 	
 	cout << "Elija una de estas opciones \n" << endl;
 	cout << "Opcion 1.-Suma" << endl;
 	cout << "Opcion 2.-Resta" << endl;
 	cout << "Opcion 3.-Multiplicacion" << endl;
 	cout << "Opcion 4.-Division" << endl;
-	cout << "Opcion 5.-Raiz" << endl;
+	cout << "Opcion 5.-Raiz cuadrada" << endl;
 	cout << "Opcion 6.-Potencia" << endl;
 	cout << "Opcion S.-Salir" << endl;
 	
@@ -29,7 +32,7 @@ int main(int argc, char *argv[])
 				cout << "" << endl;
 				break;
 			}
-				case '2':
+			case '2':
 				{cout << "Ingrese el primer valor" << endl;
 				cin >> a;
 				cout << "Ingrese el segundo valor" << endl;
@@ -38,8 +41,8 @@ int main(int argc, char *argv[])
 				cout << "el resultado de la resta es: " << p << endl;
 				cout << "" << endl;
 				break;
-				}
-				case '3':
+			}
+			case '3':
 				{cout << "Ingrese el primer valor" << endl;
 				cin >> a;
 				cout << "Ingrese el segundo valor" << endl;
@@ -48,8 +51,8 @@ int main(int argc, char *argv[])
 				cout << "el resultado de la multiplicacion es: " << p << endl;
 				cout << "" << endl;
 				break;
-				}
-				case '4':
+			}
+			case '4':
 				{cout << "Ingrese el primer valor" << endl;
 				cin >> a;
 				cout << "Ingrese el segundo valor" << endl;
@@ -58,16 +61,16 @@ int main(int argc, char *argv[])
 				cout << "el resultado de la division es: " << p << endl;
 				cout << "" << endl;
 				break;
-				}
-				case '5':
+			}
+			case '5':
 				{cout << "Ingrese el valor" << endl;
-				cin >> a;
-				p = sqrt (a);	
-				cout << "el resultado de la raiz es: " << p << endl;
+				cin >> i;
+				r = sqrt (i);	
+				cout << "el resultado de la raiz es: " << r << endl;
 				cout << "" << endl;
 				break;
-				}
-				case '6':	
+			}
+			case '6':	
 				{cout << "Ingrese el valor de la base" << endl;
 				cin >> a;
 				cout << "Ingrese el exponente" << endl;
@@ -76,8 +79,8 @@ int main(int argc, char *argv[])
 				cout << "el resultado de la raiz es: " << p << endl;
 				cout << "" << endl;
 				break;
-				}
-				case 'S':
+			}
+			case 'S':
 				cout << "Gracias" << endl;
 		}
 	return 0;

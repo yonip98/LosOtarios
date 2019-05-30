@@ -14,7 +14,7 @@ int main()
 	cin >> mm1;
 	cin >> hh1;
 	
-	cout << "Ingrese los segundos, minutos y horas del primer dia \n" << endl;
+	cout << "Ingrese los segundos, minutos y horas del segundo dia \n" << endl;
 	cin >> ss2;
 	cin >> mm2;
 	cin >> hh2;
@@ -32,6 +32,6 @@ int main()
 	if (hhr>= 24)
 		{dd=dd+1;
 		hhr=hhr-24;}
-	cout << "Pasaron: " << dd << "dias, " << hh+hhr << "horas, " << mmr+mm << "minutos, " << ssr+ss << "segundos." << endl;
+	cout << "Pasaron: " << dd << " dias, " << hh+hhr << " horas, " << mmr+mm << " minutos, " << ssr+ss << " segundos." << endl;
 	return 0;
 }
