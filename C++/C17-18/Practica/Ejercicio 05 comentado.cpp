@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
 
-	int A[5], i, u, b;
+	int A[6], i, u, b;
 
   //En esta primera instancia se ingresan los valores del vector
   //Donde "i" es la posición del valor dentro del vector
