@@ -8,7 +8,7 @@ int main ()
 	int A[6], i, u, b;
 
   //En esta primera instancia se ingresan los valores del vector
-  //Donde "i" es la posición del valor dentro del vector
+  //Donde "i" es la posición del valor dentro del vector 
 	for (i=1; i<6; i++)
 	{
     //Aquí se solicita que se ingrese un valor en una posición específica
