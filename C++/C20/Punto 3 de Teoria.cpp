@@ -3,11 +3,9 @@
 using namespace std;
 
 int main() {
-	int vec[5];
-	int i;
-	int l;
-	int aux;
+	int vec[5], i, l, aux;
 	char Bandera;
+	
 	for (i=0;i<N;i++)
 	{
 		cin >> vec[i];
@@ -28,7 +26,8 @@ int main() {
 				}
 			}
 		}
-	} while(Bandera!=false);
+	}
+	while(Bandera!=false);
 	cout << "\n" << endl;
 	for (i=0;i<5;i++)
 	{
