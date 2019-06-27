@@ -7,7 +7,7 @@ int main() {
 	/*Escribir un programa que cargue una matriz cuadrada y muestre la suma de
 	los elementos de la diagonal principal. Mostrar la matriz.*/
 	
-	int vec[N][N],i,j,suma=0;
+	int vec[N][N],i,j;
 	
 	for(i=0;i<N;i++)
 	{
@@ -25,10 +25,41 @@ int main() {
 			if(j==((N-1)-i))
 			{
 				cout<<vec[i][j]<<" ";
-				suma=suma+(vec[i][j]);
 			}
 			else 
 			   cout<<"- ";
+		}
+		cout<<endl;
+	}
+	
+	cout << endl;
+	
+	for(i=0;i<N;i++)
+	{
+		for(j=0;j<N;j++)
+		{
+			if(i+j<(N-1))
+			{
+				cout<<vec[i][j]<<" ";
+			}
+			else 
+			   cout<<"- ";
+		}
+		cout<<endl;
+	}
+	
+	cout << endl;
+	
+	for(i=0;i<N;i++)
+	{
+		for(j=0;j<N;j++)
+		{
+			if(i+j>(N-1))
+			{
+				cout<<vec[i][j]<<" ";
+			}
+			else 
+					cout<<"- ";
 		}
 		cout<<endl;
 	}
