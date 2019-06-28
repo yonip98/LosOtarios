@@ -1,0 +1,110 @@
+#include <iostream>
+#define F 3 //Filas(alumnos)
+#define C 4 //Columnas(materias)
+//a=alumnos
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	int n[3][4];
+	int a,i,j,o,op,cont=0;
+	float p=0;
+	for (a=0;a<=F;a++)
+	{
+		i=a;
+		switch (a){
+		case 0:
+			cout<<"Cargar las notas de Pepe en ";
+			for (o=0;o<=C;o++)
+			{
+				switch (o){
+				case 0:
+					cout<<"Fisica: ";
+					cin>>n[i][o];
+					break;
+				case 1:
+					cout<<"Quimica: ";
+					cin>>n[i][o];
+					break;
+				case 2:
+					cout<<"Ética: ";
+					cin>>n[i][o];
+					break;
+				case 3:
+					cout<<"Historia: ";
+					cin>>n[i][o];
+					break;
+				}
+					
+			} break;
+		case 1:
+			cout<<"Cargar las notas de Mary en ";
+			for (o=0;o<=C;o++)
+			{
+				switch (o){
+				case 0:
+					cout<<"Fisica: ";
+					cin>>n[i][o];
+					break;
+				case 1:
+					cout<<"Quimica: ";
+					cin>>n[i][o];
+					break;
+				case 2:
+					cout<<"Ética: ";
+					cin>>n[i][o];
+					break;
+				case 3:
+					cout<<"Historia: ";
+					cin>>n[i][o];
+					break;
+				}
+			} break;
+		case 2:
+			cout<<"Cargar las notas de Chuy en ";
+			for (o=0;o<=C;o++)
+			{
+				switch (o){
+				case 0:
+					cout<<"Fisica: ";
+					cin>>n[i][o];
+					break;
+				case 1:
+					cout<<"Quimica: ";
+					cin>>n[i][o];
+					break;
+				case 2:
+					cout<<"Ética: ";
+					cin>>n[i][o];
+					break;
+				case 3:
+					cout<<"Historia: ";
+					cin>>n[i][o];
+					break;
+				}
+			}break;
+		}
+	}	
+	cout<<"Elija la materia que quiera saber el promedio"<<endl;
+	cout<<"1-Fisica"<<endl;
+	cout<<"2-Quimica"<<endl;
+	cout<<"3-Ética"<<endl;
+	cout<<"4-Historia"<<endl;
+	cin>>op;
+	for (i=0;i<F;i++)
+	{
+		cont=cont+n[i][op-1];
+	}
+		p=cont/F;
+	cout<<"El promedio de la materia es: "<<p<<endl;
+	for (i=0;i<F;i++)
+	{
+		for (j=0;j<C;j++)
+		{
+			cout<<n[i][j]<<" ";
+			
+		}
+		cout<<endl;
+	}
+	
+	return 0;
+}
