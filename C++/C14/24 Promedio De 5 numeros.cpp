@@ -17,7 +17,6 @@ int main()
 		cout << "El promedio es mayor o igual a 10" << endl;
 	}
 	cout << prom << endl;
-	}
 	
 	if (prom<10)
 	{
