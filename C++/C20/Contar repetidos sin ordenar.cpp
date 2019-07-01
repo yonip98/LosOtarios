@@ -2,6 +2,8 @@
 using namespace std;
 #define N 5
 
+//Este es un ejercicio que subio el profe, no borrar comentario
+
 int main() {
 	int V[N], R[N], C[N], l=0;
 	bool band, band_2;
