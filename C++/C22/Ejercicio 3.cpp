@@ -17,7 +17,7 @@ int main()
 		}
 	}
 	*/
-	cout<<"Tome su matriz humilde señor/a:"<<'\n'<<endl;
+	cout<<"Tome su matriz humilde senior/a:"<<'\n'<<endl;
 	for(h=0;h<N;h++)
 	{
 		for(k=0;k<M;k++)
@@ -27,28 +27,50 @@ int main()
 		cout<<'\n';
 	}
 	cout<<'\n';
+
 	cout<<"Elija la fila que quiere intercambiar: ";
 	cin>>i;
-	cout <<'\n'<<"El contenido de la fila seleccionada es: ";
 	
-	for(h=0;h<M;h++)
+	for(k=0;k<M;k++)
 	{
-		cin>>aux[h] = mat[h][k];
+		aux[k] = mat[i][k];
 	}
 	
+	/*cout <<'\n'<<"El contenido de la fila seleccionada es: ";
+
 	for (h=0;h<M;h++)
 	{
 		cout << aux[h] << ' ';
-	}
-	
+	}*/
+
 	cout<<'\n'<<'\n';
-	cout<<"Elija la fila que intercambiará con la primera: ";
+	cout<<"Elija la fila que intercambiara con la primera: ";
 	cin>>j;
 	
-	for(h=0;h<M;h++)
+	/*cout <<'\n'<<"El contenido de la fila seleccionada es: ";
+	
+	for (k=0;k<M;k++)
 	{
-		mat[h][k] = va1[j];
-		cout << va1[i] << ' ';
+		cout << mat[j][k]<< ' ';
+	}*/
+	
+	cout << '\n' << '\n' << "La matriz con las filas permutadas queda:"<<'\n'<<'\n';
+	
+	for(k=0;k<M;k++)
+	{
+		mat[i][k] = mat[j][k];
+		mat[j][k] = aux[k];
 	}
+	
+	for(h=0;h<N;h++)
+	{
+		for(k=0;k<M;k++)
+		{
+			cout << mat[h][k]<<' ';
+		}
+		cout<<'\n';
+	}
+	cout<<'\n';
+	
 	return 0;
 }
